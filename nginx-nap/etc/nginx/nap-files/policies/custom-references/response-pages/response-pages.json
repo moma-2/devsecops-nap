@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "responseContent": "<html><head><title>Reject Page</title></head><body>Your request was momalocked by a WAF.<br><br>Your support ID is: <%TS.request.ID()%><br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>",
-=======
-        "responseContent": "<html><head><title>Reject Page</title></head><body>Your request was moma by a WAF.<br><br>Your support ID is: <%TS.request.ID()%><br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>",
->>>>>>> 74e5afe9c7d9e50885f49d2df296b5adbc873f0a
+        "responseContent": "<html><head><title>Reject Page</title></head><body>Your request was blocked by a WAF.<br><br>Your support ID is: <%TS.request.ID()%><br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>",
         "responseHeader": "HTTP/1.1 200 OK\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nConnection: close",
         "responseActionType": "custom",
         "responsePageType": "default"
